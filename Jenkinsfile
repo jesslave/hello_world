@@ -7,7 +7,7 @@ pipeline {
         stage('Checkout')
         {
             steps {
-                git branch: 'main', credentialsId: '08239c21-315b-4576-b6ab-caa2d7325a02', url: ''
+                git branch: 'main', credentialsId: '08239c21-315b-4576-b6ab-caa2d7325a02', url: 'https://github.com/jesslave/hello_world.git'
             }
         }
         stage('Generate')
